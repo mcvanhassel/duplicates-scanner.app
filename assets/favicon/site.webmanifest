@@ -1,0 +1,29 @@
+{
+  "name": "Duplicates Scanner",
+  "short_name": "Duplicates Scanner",
+  "description": "Intelligent desktop app for detecting and removing duplicate files.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "categories": ["productivity", "utilities", "file management"],
+  "lang": "en",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/favicon/favicon32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon/favicon128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon/app.ico",
+      "sizes": "256x256",
+      "type": "image/ico"
+    }
+  ]
+}

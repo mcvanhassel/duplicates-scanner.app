@@ -1,0 +1,32 @@
+{
+  "name": "duplicates-scanner-site",
+  "version": "1.0.0",
+  "description": "Official website for Duplicates Scanner - Intelligent duplicate file detection and removal tool",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --minify",
+    "watch": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcvanhassel/duplicates-scanner.app.git"
+  },
+  "keywords": [
+    "duplicate-scanner",
+    "file-deduplication",
+    "desktop-app",
+    "duplicate-finder",
+    "file-management"
+  ],
+  "author": "Mcvanhassel Web Development",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcvanhassel/duplicates-scanner.app/issues"
+  },
+  "homepage": "https://github.com/mcvanhassel/duplicates-scanner.app#readme",
+  "devDependencies": {
+    "postcss": "8.5.1",
+    "tailwindcss": "^3.4.17",
+    "@tailwindcss/forms": "0.5.10"
+  }
+}

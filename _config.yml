@@ -1,0 +1,64 @@
+# Site Settings
+title: Duplicates Scanner
+description: Intelligent duplicate file detection and removal tool. Find and eliminate duplicate files, images, videos, and documents with smart scanning algorithms for Windows and macOS.
+author: Maurits van Hassel
+
+# URL Settings
+url: "https://duplicates.flipfocus.nl"
+baseurl: ""
+
+# Build Settings
+markdown: kramdown
+
+# SEO Plugins (if you want to add jekyll-seo-tag in the future)
+plugins:
+  - jekyll-sitemap
+
+# PWA/Manifest Settings
+pwa:
+  name: "Duplicates Scanner"
+  short_name: "Duplicates Scanner"
+  theme_color: "#2563eb" # blue-600
+  background_color: "#ffffff"
+  display: "standalone"
+  start_url: "/"
+  icons:
+    - src: "/assets/favicon/favicon128.png"
+      sizes: "128x128"
+      type: "image/png"
+    - src: "/assets/favicon/app.ico"
+      sizes: "256x256"
+      type: "image/ico"
+
+# SEO Settings
+lang: en
+keywords: duplicate scanner, duplicate file finder, duplicate remover, file deduplication, duplicate cleaner, disk space saver, file management, desktop app, Windows, macOS, duplicate detection, file organizer, storage cleanup
+
+# Social Media and Business Info
+social:
+  github: "mcvanhassel/duplicates-scanner.app"  # Update with your GitHub
+
+# Business/App Information for Rich Snippets
+app:
+  name: "Duplicates Scanner"
+  price: "9.99"
+  currency: "EUR
+  platforms: ["macOS", "Windows"]
+  category: "Productivity"
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+
+# Include directories and files
+include:
+  - assets
+  - _site/assets
