@@ -42,7 +42,7 @@ social:
 app:
   name: "Duplicates Scanner"
   price: "9.99"
-  currency: "EUR
+  currency: "EUR"
   platforms: ["macOS", "Windows"]
   category: "Productivity"
 
