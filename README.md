@@ -43,7 +43,7 @@ This is the official website for **Duplicates Scanner**, an intelligent desktop 
 ## 📱 Download the App
 
 - [Download for macOS](https://apps.apple.com/us/app/flipfocus-duplicates-scanner/id6748322948) - App Store
-- [Download for Windows](https://apps.microsoft.com/detail/9N0T4WCLMJ63) - Microsoft Store *(Coming Soon)*
+- [Download for Windows](https://apps.microsoft.com/detail/9NSWF0BL6LKC) - Microsoft Store
 
 ## 🎯 Key Features Highlighted
 
